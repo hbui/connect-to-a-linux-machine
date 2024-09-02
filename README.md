@@ -6,26 +6,24 @@ You can choose to log on any of these machines to do your work.
 
 
 ## How to log on if you are using Windows
-We will use a tool named PuTTY. There are other tools available but let's start with PuTTY. PuTTY can be downloaded [here](https://the.earth.li/~sgtatham/putty/latest/x86/putty.exe).
-Once open PuTTY, enter **harry.cs.loyola.edu** under Host Name and hit **Open**
+We will use a tool named MobaXterm. There are other tools available but let's start with MobaXterm. MobaXterm (Portable edition) can be downloaded [here](https://mobaxterm.mobatek.net/download-home-edition.html).
+Once open MobaXterm, click on Session, then SSH enter **harry.cs.loyola.edu** under Remote host, select Specify username and put your loyola id in the box (For me it is hdbui) and hit **OK**
 
-![sc0](putty00.JPG)
+![sc0](moba00.JPG)
 
 You you log on to the machine for the first time, you may see this message. Just hit **Accept**.
 
-![sc1](putty01.JPG)
+![sc1](moba01.JPG)
 
-Type in your userid
+Type in your password. Your initial password is your ID number. You will need to change after logging in the first time. 
 
-![sc2](putty02.JPG)
+![sc2](moba02.JPG)
 
 Hit "Return/Enter" and type in your password. Please note that your password will not show as you type it in
 
-![sc3](putty03.JPG)
-
 After all, you will get to this screen.
 
-![sc4](putty04.JPG)
+![sc3](moba3.JPG)
 
 ## How to log on if you are a Macs/Linux user
 Mac and Linux users can use the **terminal app** under **Utilities** to connect to any of the machines using ssh with your userid and password. In this example, I will log on to ron.cs.loyola.edu
@@ -57,7 +55,7 @@ Learn more about enabling ESM Apps service at https://ubuntu.com/esm
 The list of available updates is more than a week old.
 To check for new updates run: sudo apt update
 *** System restart required ***
-Last login: Thu Jan 18 10:11:36 2024 from 162.120.144.79
+Last login: Sun Sep 1 10:11:36 2024 from 162.120.144.79
 hdbui@ron:~$ 
 
 ```
@@ -147,19 +145,19 @@ Date and time
 
 ```
 hdbui@ron:~$ date
-Thu Jan 18 10:20:05 AM EST 2024
+Mon Sep 2 10:20:05 AM EST 2024
 ```
 ### who
 
 Show who is currently using the system
 
 hdbui@ron:~$ who
-mflll    pts/0        2023-05-19 19:07 (:1)
-mflll    pts/6        2023-04-16 20:21 (:1)
-mflll    pts/7        2023-05-16 19:22 (:1)
-dmp120   pts/8        2023-04-26 15:28 (10.16.240.13)
-cth105   pts/10       2023-04-24 11:38 (jakes-imac.ad.wiu.edu)
-mflll    pts/13       2023-05-19 16:56 (:4)
+mflll    pts/0        2024-05-19 19:07 (:1)
+mflll    pts/6        2024-04-16 20:21 (:1)
+mflll    pts/7        2024-05-16 19:22 (:1)
+dmp120   pts/8        2024-04-26 15:28 (10.16.240.13)
+cth105   pts/10       2024-04-24 11:38 (jakes-imac.ad.wiu.edu)
+mflll    pts/13       2024-05-19 16:56 (:4)
 hdbui    pts/0        2024-01-18 10:13 (162.120.144.79)
 
 ### who am i
@@ -167,10 +165,10 @@ hdbui    pts/0        2024-01-18 10:13 (162.120.144.79)
 Your username/userid/handle
 
 hdbui@ron:~$ who am i
-hdbui    pts/0        2024-01-18 10:13 (162.120.144.79)
+hdbui    pts/0        2024-09-2 10:13 (162.120.144.79)
 
 
-## When you are done, you can just close puTTy or terminal
+## When you are done, you can just close MobaXterm or terminal
 
 
 
