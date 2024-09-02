@@ -23,7 +23,7 @@ Hit "Return/Enter" and type in your password. Please note that your password wil
 
 After all, you will get to this screen.
 
-![sc3](moba3.JPG)
+![sc3](moba03.JPG)
 
 ## How to log on if you are a Macs/Linux user
 Mac and Linux users can use the **terminal app** under **Utilities** to connect to any of the machines using ssh with your userid and password. In this example, I will log on to ron.cs.loyola.edu
