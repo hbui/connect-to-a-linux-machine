@@ -151,6 +151,7 @@ Mon Sep 2 10:20:05 AM EST 2024
 
 Show who is currently using the system
 
+```
 hdbui@ron:~$ who
 mflll    pts/0        2024-05-19 19:07 (:1)
 mflll    pts/6        2024-04-16 20:21 (:1)
@@ -159,14 +160,15 @@ dmp120   pts/8        2024-04-26 15:28 (10.16.240.13)
 cth105   pts/10       2024-04-24 11:38 (jakes-imac.ad.wiu.edu)
 mflll    pts/13       2024-05-19 16:56 (:4)
 hdbui    pts/0        2024-01-18 10:13 (162.120.144.79)
-
+```
 ### who am i
 
 Your username/userid/handle
 
+```
 hdbui@ron:~$ who am i
 hdbui    pts/0        2024-09-2 10:13 (162.120.144.79)
-
+```
 
 ## When you are done, you can just close MobaXterm or terminal
 
