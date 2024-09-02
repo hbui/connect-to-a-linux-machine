@@ -7,7 +7,7 @@ You can choose to log on any of these machines to do your work.
 
 ## How to log on if you are using Windows
 We will use a tool named MobaXterm. There are other tools available but let's start with MobaXterm. MobaXterm (Portable edition) can be downloaded [here](https://mobaxterm.mobatek.net/download-home-edition.html).
-Once open MobaXterm, click on Session, then SSH enter **harry.cs.loyola.edu** under Remote host, select Specify username and put your loyola id in the box (For me it is hdbui) and hit **OK**
+Once you open MobaXterm, click on Session, then SSH enter **harry.cs.loyola.edu** under Remote host, select Specify username, and put your loyola id in the box (For me it is hdbui), and hit **OK**
 
 ![sc0](moba00.JPG)
 
