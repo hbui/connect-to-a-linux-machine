@@ -60,7 +60,7 @@ hdbui@ron:~$
 
 ```
 
-## Once you log on, you can try out a few basic commands. You will probably see these commands in CS 266
+## Once you log on, you can try out a few basic commands.
 
 ### uname
 Display system information
