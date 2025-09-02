@@ -29,7 +29,7 @@ After all, you will get to this screen.
 Mac and Linux users can use the **terminal app** under **Utilities** to connect to any of the machines using ssh with your userid and password. In this example, I will log on to ron.cs.loyola.edu
 
 ```
- hbui@CSDS-3KQSQ6LR ~ % ssh hdbui@ron.cs.loyola.edu
+hbui@CSDS-3KQSQ6LR ~ % ssh hdbui@ron.cs.loyola.edu
 The authenticity of host 'ron.cs.loyola.edu (144.126.12.129)' can't be established.
 ED25519 key fingerprint is SHA256:9xOwI9Yta0o+lvDAzXdRQmof5+Wj/hmRp/aJwz0uldk.
 This key is not known by any other names.
