@@ -33,12 +33,12 @@ After all, you will get to this screen.
 Mac and Linux users can use the **terminal app** under **Utilities** to connect to any of the machines using ssh with your userid and password. In this example, I will log on to ron.cs.loyola.edu
 
 ```
-hbui@CSDS-3KQSQ6LR ~ % ssh hdbui@ron.cs.loyola.edu
-The authenticity of host 'ron.cs.loyola.edu (144.126.12.129)' can't be established.
+hbui@CSDS-3KQSQ6LR ~ % ssh hdbui@hogwarts.cs.loyola.edu
+The authenticity of host 'hogwarts.cs.loyola.edu (144.126.12.129)' can't be established.
 ED25519 key fingerprint is SHA256:9xOwI9Yta0o+lvDAzXdRQmof5+Wj/hmRp/aJwz0uldk.
 This key is not known by any other names.
 Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
-Warning: Permanently added 'ron.cs.loyola.edu' (ED25519) to the list of known hosts.
+Warning: Permanently added 'hogwarts.cs.loyola.edu' (ED25519) to the list of known hosts.
 (hdbui@ron.cs.loyola.edu) Password: 
 Welcome to Ubuntu 22.04.3 LTS (GNU/Linux 5.19.0-41-generic x86_64)
 
@@ -60,7 +60,7 @@ The list of available updates is more than a week old.
 To check for new updates run: sudo apt update
 *** System restart required ***
 Last login: Sun Sep 1 10:11:36 2024 from 162.120.144.79
-hdbui@ron:~$ 
+hdbui@hogwarts:~$ 
 
 ```
 
@@ -70,9 +70,9 @@ hdbui@ron:~$
 Display system information
 
 ```
-hdbui@ron:~$ uname
+hdbui@hogwarts:~$ uname
 Linux
-hdbui@ron:~$ uname -r
+hdbui@hogwarts:~$ uname -r
 5.19.0-41-generic
 ```
 
@@ -80,13 +80,13 @@ hdbui@ron:~$ uname -r
 Show current working director
 
 ```
-hdbui@ron:~$ pwd
+hdbui@hogwarts:~$ pwd
 /home/hdbui
 ```
 
 ### ls
 
-List what inside a directory
+List what is inside a directory
 
 ```
 hdbui@ron:~$ ls
@@ -103,8 +103,8 @@ awk    Documents  hello.c	Music	 Pictures   test.c
 Navigate to a directory
 
 ```
-hdbui@ron:~$ cd Files
-hdbui@ron:Files$ ls
+hdbui@hogwarts:~$ cd Files
+hdbui@hogwarts:Files$ ls
 foo  foobar
 ```
 
@@ -113,10 +113,10 @@ foo  foobar
 Navigate back one directory
 
 ```
-hdbui@ron:Files$ pwd
+hdbui@hogwarts:Files$ pwd
 /home/hdbui/Files
-hdbui@ron:Files$ cd ..
-hdbui@ron:~$ pwd
+hdbui@hogwarts:Files$ cd ..
+hdbui@hogwarts:~$ pwd
 /home/hdbui
 ```
 
@@ -124,9 +124,9 @@ hdbui@ron:~$ pwd
 
 Create a directory
 ```
-hdbui@ron:~$ cd Files
-hdbui@ron:Files$ mkdir code
-hdbui@ron:Files$ ls
+hdbui@hogwarts:~$ cd Files
+hdbui@hogwarts:Files$ mkdir code
+hdbui@hogwarts:Files$ ls
 code  foo  foobar
 ```
 
@@ -135,11 +135,11 @@ code  foo  foobar
 Go back to your home directory
 
 ```
-hdbui@ron:Files$ cd code
-hdbui@ron:code$ pwd
+hdbui@hogwarts:Files$ cd code
+hdbui@hogwarts:code$ pwd
 /home/hdbui/Files/code
-hdbui@ron:code$ cd ~
-hdbui@ron:~$ pwd
+hdbui@hogwarts:code$ cd ~
+hdbui@hogwarts:~$ pwd
 /home/hdbui
 ```
 
@@ -148,7 +148,7 @@ hdbui@ron:~$ pwd
 Date and time
 
 ```
-hdbui@ron:~$ date
+hdbui@hogwarts:~$ date
 Mon Sep 2 10:20:05 AM EST 2024
 ```
 ### who
@@ -156,7 +156,7 @@ Mon Sep 2 10:20:05 AM EST 2024
 Show who is currently using the system
 
 ```
-hdbui@ron:~$ who
+hdbui@hogwarts:~$ who
 mflll    pts/0        2024-05-19 19:07 (:1)
 mflll    pts/6        2024-04-16 20:21 (:1)
 mflll    pts/7        2024-05-16 19:22 (:1)
@@ -170,7 +170,7 @@ hdbui    pts/0        2024-01-18 10:13 (162.120.144.79)
 Your username/userid/handle
 
 ```
-hdbui@ron:~$ who am i
+hdbui@hogwarts:~$ who am i
 hdbui    pts/0        2024-09-2 10:13 (162.120.144.79)
 ```
 
