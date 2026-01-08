@@ -1,13 +1,17 @@
 ## Overview
 
-This guide will show you how to connect to a Linux machine and introduce you to to the Linux environment (shell/terminal).
-We name our Linux machines after characters and locations from the Harry Potter books and movies.  They are harry, ron, hermione, lupin, crookshanks, Bellatrix, Dumbledore, draco, snape, luna, ginny, Neville, peeves, and mcgonagall. The machines are physically located in the Linux Lab (DS 130)
+This guide will show you how to connect to a Linux machine and introduce you to the Linux environment (shell/terminal)
+
+List of Linux machines: (remember to add .cs.loyola.edu to complete hostname)
+Anywhere: hogwarts, hogsmeade, and draco
+On campus only: thorin, balin, dwalin, oin, gloin, fili, kili, ori, dori, bifur, and bofur
+
 You can choose to log on any of these machines to do your work.
 
 
 ## How to log on if you are using Windows
 We will use a tool named MobaXterm. There are other tools available but let's start with MobaXterm. MobaXterm (Portable edition) can be downloaded [here](https://mobaxterm.mobatek.net/download-home-edition.html).
-Once you open MobaXterm, click on Session, then SSH enter **harry.cs.loyola.edu** under Remote host, select Specify username, and put your loyola id in the box (For me it is hdbui), and hit **OK**
+Once you open MobaXterm, click on Session, then SSH enter **hogwarts.cs.loyola.edu** under Remote host, select Specify username, and put your loyola id in the box (For me it is hdbui), and hit **OK**
 
 ![sc0](moba00.JPG)
 
